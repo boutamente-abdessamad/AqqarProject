@@ -127,7 +127,7 @@
                                             <span class="label">إضهار كلمة الدخوال</span>
                                         </div>
                                         <div class="modal-footer">
-                                        <input type="submit" id="btn-login"   data-dismiss="modal" class="btn btn-custom btn-lg btn-block" value="تسجيل الدخول">
+                                        <a href="profile.php"><input type="submit" id="btn-login"    data-dismiss="modal" class="btn btn-custom btn-lg btn-block" value="تسجيل الدخول"></a>
                                         </div>
                                     </form>
                                     <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal"> هل نسيت كلمة الدخول؟؟</a>

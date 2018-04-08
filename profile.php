@@ -130,7 +130,7 @@
                                             <span class="label">إضهار كلمة الدخوال</span>
                                         </div>
                                         <div class="modal-footer">
-                                        <a href="profile.php"><input type="submit" id="btn-login"    data-dismiss="modal" class="btn btn-custom btn-lg btn-block" value="تسجيل الدخول"></a>
+                                        <input type="submit" id="btn-login"   data-dismiss="modal" class="btn btn-custom btn-lg btn-block" value="تسجيل الدخول">
                                         </div>
                                     </form>
                                     <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal"> هل نسيت كلمة الدخول؟؟</a>
@@ -147,50 +147,88 @@
         <!-- Contact -->
         <section>
             <div class="container">
+               <hr>
                 <div class="row">
-                  <div class="col-md-4 panel-form">
-                        <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">يسعدنا تواصلكم معنا</h5>
-                                <!-- <small class="text-muted">3 days ago</small> -->
-                                </div>
-                                <p class="mb-1">سنحاور الر على رسائلكم</p>
-                                <small class="text-muted">المحتوى المقروء</small>
-                            </a>
-                        </div>
-                  </div>
-                  <div class="col-md-8">
-                  <div class="panel panel-default panel-form body-panel-style">
-                    <div class="panel-heading header-panel heading-panel-style" >
-                    <h5 class="h5">تواصل معنا</h5>
+                    <div class="col-sm-10">
+                        <p class="h3">عبد الصمد </p>
+                    
+                    <button type="button" class="btn btn-success">تعديل معلوماتي الشخصية</button>  <button type="button" class="btn btn-info">اضافة إعلان</button>
+            <br>
                     </div>
-                    <div class="panel-body ">
-                        <form action="" class="form-register">
-                            <div class="form-group">
-                                <label for="">الإسم الكامل </label>
-                                <input type="text" class="form-control" placeholder="الإسم الكامل ">
-                            </div>
-                            <div class="form-group">
-                                <label for="">الموضوع</label>
-                                <input type="tel" class="form-control" placeholder="الموضوع">
-                            </div>
-                            <div class="form-group">
-                                <label for="">البريد الإلكتروني</label>
-                                <input type="email" class="form-control" placeholder="exemple@email.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="message">اترك رسالتك</label>
-                                <textarea name="message" id="message" cols="30" rows="4" class="form-control" >
-                                </textarea>
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" class="btn btn-success btn-xs" value="إرسال">
-                            </div>
-                        </form>
+                <div class="col-sm-2"><a href="/users" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="http://www.rlsandbox.com/img/profile.jpg"></a>
+
                     </div>
-                  </div>
                 </div>
+            <br>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <!--left col-->
+                        <ul class="list-group">
+                            <li class="list-group-item text-muted" contenteditable="false">الملف الشخصي</li>
+                            <li class="list-group-item text-right"><strong class=""> الإسم</strong> عبد الصمد</li>
+                            <li class="list-group-item text-right"> رقم الهاتف<strong class=""> 0645457645</strong></li>
+                            <li class="list-group-item text-right"> البريد الالكتروني<strong class=""> email@gmail.com</strong></li>
+                        </ul>
+                        <ul class="list-group">
+                            <li class="list-group-item text-muted">أنشطة <i class="fa fa-dashboard fa-1x"></i>
+
+                            </li>
+                            <li class="list-group-item text-right"> 0<span class="pull-left"><strong class="">عدد العروض المنشورة</strong></span></li>
+                        </ul>
+                
+                    </div>
+                    <!--/col-3-->
+                    <div class="col-sm-9" style="" contenteditable="false">
+                        <div class="panel panel-default target">
+                            <div class="panel-heading heading-panel-style" contenteditable="false">عروضي</div>
+                            <div class="panel-body">
+                            <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                <img alt="300x200" src="http://lorempixel.com/600/200/city">
+                                    <div class="caption">
+                                        <h3>
+                                            Rover
+                                        </h3>
+                                        <p>
+                                            Cocker Spaniel who loves treats.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img alt="300x200" src="http://lorempixel.com/600/200/city">
+                                    <div class="caption">
+                                        <h3>
+                                            Marmaduke
+                                        </h3>
+                                        <p>
+                                            Is just another friendly dog.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                <img alt="300x200" src="http://lorempixel.com/600/200/city">
+                                    <div class="caption">
+                                        <h3>
+                                            Rocky
+                                        </h3>
+                                        <p>
+                                            Loves catnip and naps. Not fond of children.
+                                        </p>
+                                    </div>
+                                </div>
+                           </div>           
+                        </div>             
+                    </div>     
+                </div>
+            </div>
+
+
+                        <div id="push"></div>
         </div><!-- end container -->
        </section> <!-- end section contact -->
 
