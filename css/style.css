@@ -16,7 +16,7 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'Droid Arabic Kufi', serif';
+    font-family: 'Droid Arabic Kufi','serif';
     font-weight: 300;
 }
 
@@ -1688,5 +1688,19 @@ xkeyframes
 	margin-left: -6px;
 	text-decoration: none;
 
+}.slider-style{
+    height: 400px !important;
+}.table-style-text{
+    text-align: right;
+}.badge {
+    background-color: #1fa67b !important;
+    width: 100%;
+}.price-area{
+    float: right;
+    border: 2px #1fa67b solid;
+    border-radius: 12px;
+    width: 100%;
+}.details-pos{
+    margin-bottom: 25px;
 }
 
