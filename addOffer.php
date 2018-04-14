@@ -163,7 +163,12 @@
                                     </textarea>
                                     <label for="type" class="align-items">المرجو رفع صور للعقار 5 كحد اقصى</label>
                                     <input type="file" class="form-control-file"><br>
-                                    <input type="checkbox">اوافق على شروط الاستخدام والخصوصية <br><br>
+                                    <input type="checkbox">اوافق على شروط الاستخدام والخصوصية <br>
+                                    <label for="type" class="align-items">حدد موقع عقارك على الخريطة </label><br>
+                                    <div class="map">
+                                    <input id="pac-input" class="controls" type="text" placeholder="ابحت عن مكان عقارك">
+                                    <div id="map"></div>
+                                    </div>
                                     <input type="submit" class="btn btn-success" value="نشر">
                                 </div>
                                   </div>
@@ -263,22 +268,24 @@
         <script>
             function showPassword() {
     
-    var key_attr = $('#key').attr('type');
-    
-    if(key_attr != 'text') {
-        
-        $('.checkbox').addClass('show');
-        $('#key').attr('type', 'text');
-        
-    } else {
-        
-        $('.checkbox').removeClass('show');
-        $('#key').attr('type', 'password');
-        
-    }
-    
-}
+                var key_attr = $('#key').attr('type');
+                
+                if(key_attr != 'text') {
+                    
+                    $('.checkbox').addClass('show');
+                    $('#key').attr('type', 'text');
+                    
+                } else {
+                    
+                    $('.checkbox').removeClass('show');
+                    $('#key').attr('type', 'password');
+                    
+                }
+                
+            }
         </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtQIdGGu4w5Eb3b1-xFqesQGcgwaMef7E&libraries=places&callback=initAutocomplete"
+         async defer></script>
     </body>
 </html>
 
