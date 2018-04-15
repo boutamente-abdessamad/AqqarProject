@@ -1,10 +1,8 @@
-<!doctype html >
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="ar" dir="rtl"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+
+    <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Soft-Tect Free Landing Page</title>
         <meta name="description" content="">
@@ -25,17 +23,27 @@
         <link rel="stylesheet" href="css/style.css"> -->
         <link rel="stylesheet" href="css/main.css">
         <!-- offers css -->
-        <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-        <link rel="stylesheet" href="css/thumbnail-gallery.css">
-        <style type="text/css">
-        .bs-example{
-            margin: 20px;
-        }
-    </style>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/gallery/gallery-grid.css">
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+   <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
@@ -147,72 +155,33 @@
         <section>
             <div class="container">
                 <div class="row">
-                <div class="col-md-4">
-                            <div class="col-md-12 details-pos">
-                                <div class="price-area">
-                                    <p class="h3 price-right">السعر</p>
-                                    <span class="badge badge-success"><h3>100099.98 درهم</h3></span>
-                                </div>
+                <div class="col-md-6">
+                  <!-- map  -->
+                  <label for="map">موقع العقار</label>
+                    <input id="pac-input" class="controls" type="text" placeholder="ابحت عن مكان عقارك">
+                    <div id="map"></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="details">
+                       <div class="col-md-12 details-pos">
+                            <div class="price-area">
+                                <p class="h3 price-right">السعر</p>
+                                <span class="badge badge-success"><h3><b>100099.98 درهم</b></h3></span>
                             </div>
-                            <div class="col-md-12 details-pos">
-                                <div class="price-area">
-                                    <p class="h3 price-right">الطابق</p>
-                                    <span class="badge badge-success"><h3>2</h3></span>
-                                </div>
+                        </div>
+                        <div class="col-md-12 details-pos">
+                            <div class="price-area">
+                                <p class="h3 price-right">الطابق</p>
+                                <span class="badge badge-success"><h3>2</h3></span>
                             </div>
-                            <div class="col-md-12 details-pos">
-                                <div class="price-area">
-                                    <p class="h3 price-right">المساحة</p>
-                                    <span class="badge badge-success"><h3>100 M</h3></span>
-                                </div>
-                            </div> <!-- end details -->
-                    </div>
-                    <div class="col-md-8">
-                    <div class="banner ">
-                         <!-- begin Slider -->
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                <!-- Indicators -->
-                                <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                                </ol>
-                                <!-- Wrapper for slides -->
-                                <div class="carousel-inner slider-style">
-                                    <div class="item active slider-style">
-                                        <img src="images/bridge.jpg" alt="Los Angeles" class="slider-style" style="width:100%;">
-                                        <div class="carousel-caption">
-                                        <h3>Los Angeles</h3>
-                                        <p>LA is always so much fun!</p>
-                                        </div>
-                                    </div>
-                                    <div class="item slider-style">
-                                        <img src="images/bridge.jpg" alt="Chicago"class="slider-style" style="width:100%;">
-                                        <div class="carousel-caption">
-                                        <h3>Chicago</h3>
-                                        <p>Thank you, Chicago!</p>
-                                        </div>
-                                    </div>
-                                    <div class="item slider-style">
-                                        <img src="images/bridge.jpg" alt="New York" class="slider-style" style="width:100%;">
-                                        <div class="carousel-caption">
-                                        <h3>New York</h3>
-                                        <p>We love the Big Apple!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Left and right controls -->
-                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                <span class="sr-only">Next</span>
-                                </a>
+                        </div>
+                        <div class="col-md-12 details-pos">
+                            <div class="price-area">
+                                <p class="h3 price-right">المساحة</p>
+                                <span class="badge badge-success"><h3>100 M</h3></span>
                             </div>
-                         <!-- end slider -->
-                    </div>
+                        </div> <!-- end details -->
+                  </div>
                 </div>
                </div> 
                </div>
@@ -231,30 +200,56 @@
                 </div>
             </div>
       </section> <!--  end details offer -->
+      <section>
+              <div class="container">
+                  <div class="row">
+                      <div class="contant">
+                        <div class="col-md-6">
+                        <p class="h5 price-right">تواصل مع المعلن</p>
+                        <a><span class"glyphicon glyphicon-phone"></span>0656453454</a>
+                        </div>
+                         <div class="col-md-6">
+                         
+                         </div>
+                      </div>
+                  </div>
+              </div>
+      </section><!-- details -->
 
+<!-- gallery -->
+    <section >
+    <div  class="container gallery-container">
+    <h1> Gallery</h1>
+    <p class="page-description text-center">Grid  Zoom </p>
+    <div dir="ltr" class="tz-gallery" >
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="../images/park.jpg">
+                    <img src="../images/park.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="../images/bridge.jpg">
+                    <img src="../images/bridge.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <a class="lightbox" href="../images/tunnel.jpg">
+                    <img src="../images/tunnel.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <a class="lightbox" href="../images/coast.jpg">
+                    <img src="../images/coast.jpg" alt="Coast">
+                </a>
+            </div>
+        </div>
 
+    </div>
 
-               
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
+    </section>
+<!-- endgalery -->
 
 
 
@@ -315,7 +310,12 @@
     
 }
         </script>
-    </body>
+<script src="js/gallery/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtQIdGGu4w5Eb3b1-xFqesQGcgwaMef7E&libraries=places&callback=initAutocomplete"
+         async defer></script>  
+    </body
+</body>
 </html>
-
-

@@ -1694,7 +1694,9 @@ xkeyframes
     text-align: right;
 }.badge {
     background-color: #1fa67b !important;
-    width: 100%;
+    width: 70%;
+    float: left;
+    padding: 10px;
 }.price-area{
     float: right;
     border: 2px #1fa67b solid;
@@ -1702,5 +1704,7 @@ xkeyframes
     width: 100%;
 }.details-pos{
     margin-bottom: 25px;
+}.price-right{
+    float: right;
 }
 
