@@ -546,7 +546,7 @@ textarea::-ms-input-placeholder
 
 /*For Menu Style*/
 .navbar-default {
-    background-color: transparent;
+    background-color: #fff;
     border-color: transparent;
     border-radius:0;
     padding-top:20px;
@@ -567,13 +567,13 @@ textarea::-ms-input-placeholder
 .navbar-default .collapse .login a{
     color: #82ca9c;
     border: 1px solid #82ca9c;
-    border-radius: 20px;
-    padding: 4px 30px;
+    border-radius: 4px;
+    padding: 0px 15px;
     font-size: 12px;
     margin-top: 10px;
-    margin-left: 30px;
-    display:inline-block;
-    overflow:hidden;
+    margin-left: 4px;
+    display: inline-block;
+    overflow: hidden;
 }
 .navbar-default .collapse .login:hover a{
     background-color: rgba(0, 173, 62, 0.75);
@@ -590,6 +590,7 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
+    margin-top: -20px;
     background:url(../images/homebg.jpg) no-repeat center center;
     color:#000;
 	background-size:cover;
@@ -1584,7 +1585,13 @@ xkeyframes
 /*For Footer Menu Section*/
 
 .footer-menu{
-    background: #64c5835e;
+    /* background: #64c5835e;
+    color: #000;
+    border-bottom: 1px solid #3c763d; */
+    margin-top: 10px;
+    padding: 40px;
+    border: 1px solid #1fa67b;
+    background: #fdfdfc;
     color: #000;
     border-bottom: 1px solid #3c763d;
 }
@@ -1658,35 +1665,35 @@ xkeyframes
 /*scollup icon*/
 
 .scrollup {
-	width: 30px;
-	height: 30px;
-	border-radius: 15px;
-	opacity: .3;
-	position: fixed;
-	bottom: 20px;
-	right: 25px;
-	color: #fff;
-	cursor: pointer;
-	background-color: #000;
-	z-index: 10;
-	transition: opacity .5s, background-color .5s;
-	-moz-transition: opacity .5s, background-color .5s;
-	-webkit-transition: opacity .5s, background-color .5s;
+	width: 30px !important;
+	height: 30px !important;
+	border-radius: 15px !important;
+	opacity: .3 !important;
+	position: fixed !important;
+	bottom: 20px !important;
+	right: 25px !important;
+	color: #fff !important;
+	cursor: pointer !important;
+	background-color: #000 !important;
+	z-index: 10 !important;
+	transition: opacity .5s, background-color .5s !important;
+	-moz-transition: opacity .5s, background-color .5s !important;
+	-webkit-transition: opacity .5s, background-color .5s !important;
 }
 .scrollup:hover {
-	background: #82ca9c;
-	opacity: 1;
+	background: #82ca9c !important;
+	opacity: 1 !important;
 }
 .scrollup i {
-	font-size: 13px;
-	position: absolute;
-	opacity: 1;
-	color: #fff;
-	left: 50%;
-	top: 50%;
-	margin-top: -7px;
-	margin-left: -6px;
-	text-decoration: none;
+	font-size: 13px !important;
+	position: absolute !important;
+	opacity: 1 !important;
+	color: #fff !important;
+	left: 50% !important;
+	top: 50% !important;
+	margin-top: -7px !important;
+	margin-left: -6px !important;
+	text-decoration: none !important;
 
 }.slider-style{
     height: 400px !important;
@@ -1706,5 +1713,8 @@ xkeyframes
     margin-bottom: 25px;
 }.price-right{
     float: right;
+}.p-style{
+    color: #000;
+    margin-right: 23px;
 }
 

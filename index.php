@@ -26,8 +26,8 @@
         <link rel="stylesheet" href="css/main.css">
         <!-- offers css -->
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-        <link rel="stylesheet" href="css/thumbnail-gallery.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css"> -->
+        <link rel="stylesheet" href="css/gallery/thumbnail-gallery.css">
         <style type="text/css">
         .bs-example{
             margin: 20px;
@@ -155,7 +155,7 @@
                             <div class="col-md-10 col-md-offset-1">
                                 <div class="home-content">
 
-                                    <h1>هل تبحت عن عقار منزل شقة نحن هنا لمساعدتك</h1>
+                                    <h1 class="shadow-text">هل تبحت عن عقار منزل شقة نحن هنا لمساعدتك</h1>
                                     <p>وصف تقديمي</p>
 
                                     <!-- <div class="row">
@@ -180,8 +180,11 @@
         <section>
             <div class="container">
                 <div class="row">
+                        <div class="col-md-3">
+                          <img src="images/ads.jpg" alt="ads" class="responsive ads" >
+                        </div>
                     <!-- form de recherche -->
-                    <div class="col-lg-12">
+                        <div class="col-md-9">
                             <div class="panel panel-default panel-form body-panel-style">
                                 <div class="panel-heading header-panel heading-panel-style" >
                                  <h5 class="h5"> ابحت عن عقار</h5>
@@ -199,7 +202,7 @@
                                                 </div>
                                                 <div class="col-md-4">
                                                     <label for="type" class="align-items">المدينة او المنطقة</label>
-                                                        <select  name="type" id="type" class="form-control">                        
+                                                        <select  name="city" id="city" class="form-control">                        
                                                             <option value="1">	-اختر مدينة-</option>
                                                             <option value="1">	Casablanca</option>
                                                             <option value="1">	Fez</option>
@@ -271,7 +274,7 @@
                                                 </div>
                                                 <div class="col-md-4">
                                                     <label for="type" class="align-items">العرض</label>
-                                                        <select  name="type" id="type" class="form-control">
+                                                        <select  name="offer" id="offer" class="form-control">
                                                         <option value="1">عرض الكل</option>
                                                         <option value="1">بيع</option>
                                                         <option value="1">ايجار</option>
@@ -316,7 +319,7 @@
             <div class="container">
                 <div class="row">
                    <div class="col-md-3">
-                        <img src="images/ads.jpg" alt="ads" class="responsive">
+                        <img src="images/ads.jpg" alt="ads1" class="responsive">
                     </div>
                     <div class="col-md-9">
                             <div class="tz-gallery">
@@ -344,11 +347,9 @@
                                                  </table>  
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="thumbnail">
-                                                    <a class="lightbox" href="images/bridge.jpg">
+                                            <div class="thumbnail">
                                                         <img src="images/bridge.jpg" alt="Bridge">
-                                                    </a>
-                                                </div>                                              
+                                                </div>                                               
                                             </div>
                                         </div>                                   
                                     </div>  
@@ -377,9 +378,7 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="thumbnail">
-                                                    <a class="lightbox" href="images/bridge.jpg">
                                                         <img src="images/bridge.jpg" alt="Bridge">
-                                                    </a>
                                                 </div>                                              
                                             </div>
                                         </div>                                   
@@ -408,11 +407,9 @@
                                                  </table>  
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="thumbnail">
-                                                    <a class="lightbox" href="images/bridge.jpg">
+                                            <div class="thumbnail">
                                                         <img src="images/bridge.jpg" alt="Bridge">
-                                                    </a>
-                                                </div>                                              
+                                                </div>                                               
                                             </div>
                                         </div>                                   
                                     </div>  
@@ -440,11 +437,9 @@
                                                  </table>  
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="thumbnail">
-                                                    <a class="lightbox" href="images/bridge.jpg">
+                                            <div class="thumbnail">
                                                         <img src="images/bridge.jpg" alt="Bridge">
-                                                    </a>
-                                                </div>                                              
+                                                </div>                                               
                                             </div>
                                         </div>                                   
                                     </div>  

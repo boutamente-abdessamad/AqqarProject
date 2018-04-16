@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="rtl">
+<html >
 <head>
 
     <meta charset="utf-8">
@@ -28,20 +28,12 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <link rel="stylesheet" href="css/gallery/gallery-grid.css">
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="css/style.css
 
 
 </head>
 <body>
-
-
-
-
-
-
-
-
-
-
 
    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -123,25 +115,25 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="form-wrap">
-                                <p style="text-align: center;">المرجو إدخال البريد الالكتروني او رقم الهاتف مع كلمةالدخول</p>
+                                <p style="text-align: center;" class="derection">المرجو إدخال البريد الالكتروني او رقم الهاتف مع كلمةالدخول</p>
                                     <form role="form" action="javascript:;" method="post" id="login-form" autocomplete="off">
                                         <div class="form-group">
-                                            <label for="email" class="sr-only">البريد الالكتروني او رقم الهاتف</label>
+                                            <label for="email" class="sr-only derection">البريد الالكتروني او رقم الهاتف</label>
                                             <input type="email" name="email" id="email" class="form-control" placeholder="البريد الالكتروني او رقم الهاتف">
                                         </div>
                                         <div class="form-group">
-                                            <label for="key" class="sr-only">كلمةالدخول</label>
+                                            <label for="key" class="sr-only derection">كلمةالدخول</label>
                                             <input type="password" name="key" id="key" class="form-control" placeholder="كلمةالدخول">
                                         </div>
                                         <div class="checkbox">
                                             <span class="character-checkbox" onclick="showPassword()"></span>
-                                            <span class="label">إضهار كلمة الدخوال</span>
+                                            <span class="label derection">إضهار كلمة الدخوال</span>
                                         </div>
                                         <div class="modal-footer">
                                         <a href="profile.php"><input type="submit" id="btn-login"    data-dismiss="modal" class="btn btn-custom btn-lg btn-block" value="تسجيل الدخول"></a>
                                         </div>
                                     </form>
-                                    <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal"> هل نسيت كلمة الدخول؟؟</a>
+                                    <a href="javascript:;" class="forget derection" data-toggle="modal" data-target=".forget-modal"> هل نسيت كلمة الدخول؟؟</a>
                                     <hr>
                                 </div>
                             </div> <!-- /.col-xs-12 -->
@@ -154,10 +146,10 @@
         <!-- Contact -->
         <section>
             <div class="container">
-                <div class="row">
-                <div class="col-md-6">
+                <div class="row show-offer-background">
+                <div class="col-md-6 derection">
                   <!-- map  -->
-                  <label for="map">موقع العقار</label>
+                  <label for="map" >موقع العقار</label>
                     <input id="pac-input" class="controls" type="text" placeholder="ابحت عن مكان عقارك">
                     <div id="map"></div>
                 </div>
@@ -165,20 +157,20 @@
                   <div class="details">
                        <div class="col-md-12 details-pos">
                             <div class="price-area">
-                                <p class="h3 price-right">السعر</p>
-                                <span class="badge badge-success"><h3><b>100099.98 درهم</b></h3></span>
+                                <p class="h3 price-right derection">السعر</p>
+                                <span class="badge badge-success derection"><h3><b>100099.98 درهم</b></h3></span>
                             </div>
                         </div>
                         <div class="col-md-12 details-pos">
                             <div class="price-area">
-                                <p class="h3 price-right">الطابق</p>
-                                <span class="badge badge-success"><h3>2</h3></span>
+                                <p class="h3 price-right derection">الطابق</p>
+                                <span class="badge badge-success derection"><h3>2</h3></span>
                             </div>
                         </div>
                         <div class="col-md-12 details-pos">
                             <div class="price-area">
-                                <p class="h3 price-right">المساحة</p>
-                                <span class="badge badge-success"><h3>100 M</h3></span>
+                                <p class="h3 price-right derection">المساحة</p>
+                                <span class="badge badge-success derection"><h3>100 M</h3></span>
                             </div>
                         </div> <!-- end details -->
                   </div>
@@ -189,38 +181,21 @@
        </section> <!-- end section contact -->
        <section>
             <div class="container">
-                <div class="row">
+                <div class="row show-offer-background">
                  <div class="col-md-12">
-                          <p class="h3">الوصف التفصيلي</p><hr>
-                          <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على 
+                          <p class="h3 derection">الوصف التفصيلي</p><hr>
+                          <p class="derection">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على 
                              الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
                                ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام
                              هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقرو</p> <hr>     
                   </div>
                 </div>
             </div>
-      </section> <!--  end details offer -->
-      <section>
-              <div class="container">
-                  <div class="row">
-                      <div class="contant">
-                        <div class="col-md-6">
-                        <p class="h5 price-right">تواصل مع المعلن</p>
-                        <a><span class"glyphicon glyphicon-phone"></span>0656453454</a>
-                        </div>
-                         <div class="col-md-6">
-                         
-                         </div>
-                      </div>
-                  </div>
-              </div>
-      </section><!-- details -->
-
+      </section>
 <!-- gallery -->
     <section >
     <div  class="container gallery-container">
-    <h1> Gallery</h1>
-    <p class="page-description text-center">Grid  Zoom </p>
+    <p class="page-description text-center">صور للعقار</p>
     <div dir="ltr" class="tz-gallery" >
         <div class="row">
             <div class="col-sm-6 col-md-3">
@@ -250,13 +225,33 @@
 </div>
     </section>
 <!-- endgalery -->
-
-
-
-
-
-
-
+ <!--  end details offer -->
+ <hr>
+ <section>
+              <div class="container">
+                  <div class="row show-offer-background">
+                      <div class="contant">
+                         <table class="table">
+                             <thead >
+                             <th class="table-align">
+                                نرقم الاعلان
+                                 </th>
+                                 <th class="table-align">
+                                   تواصل مع المعلن
+                                 </th>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                 <td class="table-align"><p class="h3"><b>564567</b><i class="fas fa-sort-numeric-up"></i> </p></td>
+                                     <td class="table-align"><p class="h3"><b>0656453454</b><i class="fas fa-phone-square"></i> </p></td>
+                                     
+                                 </tr>
+                             </tbody>
+                         </table>
+                      </div>
+                  </div>
+              </div>
+      </section><!-- details -->
 
 		<div class="scrollup">
 			<a href="#"><i class="fa fa-chevron-up"></i></a>
@@ -314,6 +309,7 @@
 <script>
     baguetteBox.run('.tz-gallery');
 </script>
+<script defer src="js/fontawesome-all.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtQIdGGu4w5Eb3b1-xFqesQGcgwaMef7E&libraries=places&callback=initAutocomplete"
          async defer></script>  
     </body
