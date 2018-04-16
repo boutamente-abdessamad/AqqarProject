@@ -546,7 +546,7 @@ textarea::-ms-input-placeholder
 
 /*For Menu Style*/
 .navbar-default {
-    background-color: transparent;
+    background-color: #fff;
     border-color: transparent;
     border-radius:0;
     padding-top:20px;
@@ -568,7 +568,7 @@ textarea::-ms-input-placeholder
     color: #82ca9c;
     border: 1px solid #82ca9c;
     border-radius: 20px;
-    padding: 4px 30px;
+    padding: 0px 4px;
     font-size: 12px;
     margin-top: 10px;
     margin-left: 30px;
@@ -590,6 +590,7 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
+    margin-top: -20px;
     background:url(../images/homebg.jpg) no-repeat center center;
     color:#000;
 	background-size:cover;
@@ -1584,7 +1585,13 @@ xkeyframes
 /*For Footer Menu Section*/
 
 .footer-menu{
-    background: #64c5835e;
+    /* background: #64c5835e;
+    color: #000;
+    border-bottom: 1px solid #3c763d; */
+    margin-top: 10px;
+    padding: 40px;
+    border: 1px solid #1fa67b;
+    background: #fdfdfc;
     color: #000;
     border-bottom: 1px solid #3c763d;
 }

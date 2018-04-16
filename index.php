@@ -26,8 +26,8 @@
         <link rel="stylesheet" href="css/main.css">
         <!-- offers css -->
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-        <link rel="stylesheet" href="css/thumbnail-gallery.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css"> -->
+        <link rel="stylesheet" href="css/gallery/thumbnail-gallery.css">
         <style type="text/css">
         .bs-example{
             margin: 20px;
@@ -180,8 +180,11 @@
         <section>
             <div class="container">
                 <div class="row">
+                        <div class="col-md-3">
+                          <img src="images/ads.jpg" alt="ads" class="responsive ads" >
+                        </div>
                     <!-- form de recherche -->
-                    <div class="col-lg-12">
+                        <div class="col-md-9">
                             <div class="panel panel-default panel-form body-panel-style">
                                 <div class="panel-heading header-panel heading-panel-style" >
                                  <h5 class="h5"> ابحت عن عقار</h5>
@@ -344,11 +347,9 @@
                                                  </table>  
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="thumbnail">
-                                                    <a class="lightbox" href="images/bridge.jpg">
+                                            <div class="thumbnail">
                                                         <img src="images/bridge.jpg" alt="Bridge">
-                                                    </a>
-                                                </div>                                              
+                                                </div>                                               
                                             </div>
                                         </div>                                   
                                     </div>  
@@ -377,9 +378,7 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="thumbnail">
-                                                    <a class="lightbox" href="images/bridge.jpg">
                                                         <img src="images/bridge.jpg" alt="Bridge">
-                                                    </a>
                                                 </div>                                              
                                             </div>
                                         </div>                                   
@@ -408,11 +407,9 @@
                                                  </table>  
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="thumbnail">
-                                                    <a class="lightbox" href="images/bridge.jpg">
+                                            <div class="thumbnail">
                                                         <img src="images/bridge.jpg" alt="Bridge">
-                                                    </a>
-                                                </div>                                              
+                                                </div>                                               
                                             </div>
                                         </div>                                   
                                     </div>  
@@ -440,11 +437,9 @@
                                                  </table>  
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="thumbnail">
-                                                    <a class="lightbox" href="images/bridge.jpg">
+                                            <div class="thumbnail">
                                                         <img src="images/bridge.jpg" alt="Bridge">
-                                                    </a>
-                                                </div>                                              
+                                                </div>                                               
                                             </div>
                                         </div>                                   
                                     </div>  
