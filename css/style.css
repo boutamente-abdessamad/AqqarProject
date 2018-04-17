@@ -26,7 +26,7 @@ img {
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    user-drag: none;
+    -user-drag: none;
 }
 
 
@@ -567,8 +567,13 @@ textarea::-ms-input-placeholder
 .navbar-default .collapse .login a{
     color: #82ca9c;
     border: 1px solid #82ca9c;
+<<<<<<< HEAD
     border-radius: 4px;
     padding: 0px 15px;
+=======
+    border-radius: 20px;
+    padding: 0px 4px;
+>>>>>>> 0010709ae56742e53f09fdb57768b395fef66b49
     font-size: 12px;
     margin-top: 10px;
     margin-left: 4px;
