@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <link rel="stylesheet" href="css/gallery/gallery-grid.css">
     <!--Theme custom css -->
-    <link rel="stylesheet" href="css/style.css
+    <link rel="stylesheet" href="css/style.css">
 
 
 </head>
@@ -229,30 +229,121 @@
  <hr>
  <section>
               <div class="container">
-                  <div class="row show-offer-background">
+                  <div class="row show-offer-background main-style-offer">
                       <div class="contant">
-                         <table class="table">
+                        <div class="col-md-4 main-style-offer">
+                        <p></p><p></p>
+                        </div>
+                        <div class="col-md-4 main-style-offer">
+                        <p class="main-style-text"><b>تواصل مع المعلن</b></p>
+                        <p class="text-style"><b>0645678676</b><i style="margin-left: 10px;"; class="fas fa-phone-square"></i> </p>
+                        </div>
+                        <div class="col-md-4 main-style-offer">
+                        <p class="main-style-text"><b>رقم الاعلان</b></p>
+                        <p class="text-style"><b>567890</b></p>
+                        </div>
+                         <!-- <table class="table">
                              <thead >
                              <th class="table-align">
-                                نرقم الاعلان
+                                
                                  </th>
                                  <th class="table-align">
-                                   تواصل مع المعلن
+                               
                                  </th>
                              </thead>
                              <tbody>
                                  <tr>
-                                 <td class="table-align"><p class="h3"><b>564567</b><i class="fas fa-sort-numeric-up"></i> </p></td>
-                                     <td class="table-align"><p class="h3"><b>0656453454</b><i class="fas fa-phone-square"></i> </p></td>
+                                 <td class="table-align"><p class="h3"><b>564567</b> </p></td>
+                                     <td class="table-align"><p class="h3"><b>0656453454</b></p></td>
                                      
                                  </tr>
                              </tbody>
-                         </table>
+                         </table> -->
                       </div>
                   </div>
               </div>
       </section><!-- details -->
+      <section id="footer-menu" class="sections footer-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-menu-wrapper">
 
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5>القائمة</h5>
+                                    <ul>
+                                    <li><a href="#price">حول الموقع</a><a href="#business">اتصل بنا</a><a href="#home">الرئيسية</a></li>
+                                    <li><a href="#service">مساعدة</a><a href="#features">اضف اعلان</a></li>                       
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5>نص تجريبي</h5>
+                                    <ul>
+                                        <li>نص تجريبي & نص تجريبي</li>
+                                        <li>نص تجريبي نص تجريبي نص تجريبي</li>
+                                        <li>نص تجريبي</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="menu-item">
+                                    <h5>نص تجريبي</h5>
+                                    <ul>
+                                        <li>نص تجريبي</li>
+                                        <li>نص تجريبي</li>
+                                        <li>نص تجريبي</li>
+                                        <li>نص تجريبي</li>
+                                        <li>نص تجريبي نص تجريبي</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="menu-item">
+                                    <h5>نص تجريبي</h5>
+                                    <ul>
+                                        <li>نص تجريبي</li>
+                                        <li>نص تجريبي</li>
+                                        <li>نص تجريبي</li>
+                                        <li>نص تجريبي</li>
+                                        <li>نص تجريبي نص تجريبي</li>
+                                    </ul>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Footer-->
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-wrapper">
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-brand">
+                                <img src="images/logo.png" alt="logo" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="copyright">
+                                <p>Made with by <a target="_blank" href="http://abdessamadBoutament.me"> MilanDev </a>2018. All rights reserved.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
 		<div class="scrollup">
 			<a href="#"><i class="fa fa-chevron-up"></i></a>
 		</div>

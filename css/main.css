@@ -205,14 +205,18 @@ ul li {
    }
 
    #pac-input {
-     background-color: #fff;
-     font-family: Roboto;
-     font-size: 15px;
-     font-weight: 300;
-     margin-left: 12px;
-     padding: 0 11px 0 13px;
-     text-overflow: ellipsis;
-     width: 300px;
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 229px;
+    z-index: 0;
+    position: absolute !important;
+    left: 104px !important;
+    top: -5px!important;
    }
 
    #pac-input:focus {
@@ -248,4 +252,13 @@ ul li {
     background-color: #fff;
    }.table-align{
     text-align: right;
+   }.main-style-offer{
+       margin-top: 10px;
+       padding-block-end: 10px;
+   }.main-style-text{
+               float: right;
+   }.text-style{
+         text-align: center;
+   }.pull-left{
+    float: right !important;
    }

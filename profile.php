@@ -27,7 +27,7 @@
         <!-- offers css -->
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-        <link rel="stylesheet" href="css/thumbnail-gallery.css">
+        <link rel="stylesheet" href="css/gallery/thumbnail-gallery.css">
         <style type="text/css">
         .bs-example{
             margin: 20px;
@@ -149,14 +149,13 @@
             <div class="container">
                <hr>
                 <div class="row">
-                    <div class="col-sm-10">
-                        <p class="h3">عبد الصمد </p>
-                    
-                    <button type="button" class="btn btn-success">تعديل معلوماتي الشخصية</button>  <button type="button" class="btn btn-info">اضافة إعلان</button>
-            <br>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-lg-push-2">
+                    <img title="profile image" class="img-circle img-responsive" src="images/profile.png">
                     </div>
-                <div class="col-sm-2"><a href="/users" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="http://www.rlsandbox.com/img/profile.jpg"></a>
-
+                    <div class="col-sm-12 col-md-6 col-lg-8">
+                        <p class="h3">عبد الصمد </p>
+                    <button type="button" class="btn btn-success">تعديل معلوماتي الشخصية</button>  <button type="button" class="btn btn-info">اضافة إعلان</button>
+                      <br>
                     </div>
                 </div>
             <br>
@@ -164,10 +163,10 @@
                     <div class="col-sm-3">
                         <!--left col-->
                         <ul class="list-group">
-                            <li class="list-group-item text-muted" contenteditable="false">الملف الشخصي</li>
-                            <li class="list-group-item text-right"><strong class=""> الإسم</strong> عبد الصمد</li>
-                            <li class="list-group-item text-right"> رقم الهاتف<strong class=""> 0645457645</strong></li>
-                            <li class="list-group-item text-right"> البريد الالكتروني<strong class=""> email@gmail.com</strong></li>
+                            <li class="list-group-item text-muted" contenteditable="false"><b>الملف الشخصي</b></li>
+                            <li class="list-group-item text-right"><b> الإسم</b> عبد الصمد</li>
+                            <li class="list-group-item text-right"><b>رقم الهاتف </b>0645457645</li>
+                            <li class="list-group-item text-right"><b> البريد الالكتروني</b> email@gmail.com</li>
                         </ul>
                         <ul class="list-group">
                             <li class="list-group-item text-muted">أنشطة <i class="fa fa-dashboard fa-1x"></i>
@@ -180,44 +179,44 @@
                     <!--/col-3-->
                     <div class="col-sm-9" style="" contenteditable="false">
                         <div class="panel panel-default target">
-                            <div class="panel-heading heading-panel-style" contenteditable="false">عروضي</div>
+                            <div class="panel-heading heading-panel-style" contenteditable="false"><p class="h4"><b>عروضي</b></p></div>
                             <div class="panel-body">
                             <div class="row">
                             <div class="col-md-4">
                                 <div class="thumbnail">
-                                <img alt="300x200" src="http://lorempixel.com/600/200/city">
+                                <img alt="300x200" src="images/feature-1.jpg">
                                     <div class="caption">
                                         <h3>
-                                            Rover
+                                            العقار3
                                         </h3>
                                         <p>
-                                            Cocker Spaniel who loves treats.
+                                        نص تقديمي نص تقديمي نص تقديمي نص تقديمي 
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="thumbnail">
-                                    <img alt="300x200" src="http://lorempixel.com/600/200/city">
+                                    <img alt="300x200" src="images/feature-1.jpg">
                                     <div class="caption">
-                                        <h3>
-                                            Marmaduke
+                                    <h3>
+                                            العقار2
                                         </h3>
                                         <p>
-                                            Is just another friendly dog.
+                                        نص تقديمي نص تقديمي نص تقديمي نص تقديمي 
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="thumbnail">
-                                <img alt="300x200" src="http://lorempixel.com/600/200/city">
+                                <img alt="300x200" src="images/feature-1.jpg">
                                     <div class="caption">
                                         <h3>
-                                            Rocky
+                                            العقار1
                                         </h3>
                                         <p>
-                                            Loves catnip and naps. Not fond of children.
+                                        نص تقديمي نص تقديمي نص تقديمي نص تقديمي 
                                         </p>
                                     </div>
                                 </div>
@@ -226,9 +225,6 @@
                     </div>     
                 </div>
             </div>
-
-
-                        <div id="push"></div>
         </div><!-- end container -->
        </section> <!-- end section contact -->
 
