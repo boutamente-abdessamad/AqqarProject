@@ -10,10 +10,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- bootstrap -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- bootsrap Rtl -->
+        <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
         <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
         <!--For Plugins external css-->
-        <link rel="stylesheet" href="css/plugins.css" />
         <link rel="stylesheet" href="css/roboto-webfont.css" />
         <!--Theme custom css -->
         <link rel="stylesheet" href="css/style.css">
@@ -80,13 +82,13 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.php">الرئيسية</a></li>
+                        <li><a href="#">اضف اعلان</a></li>
+                        <li><a href="#service">مساعدة</a></li>                       
+                        <li><a href="contact.php">اتصل بنا</a></li>
+                        <li><a href="#price">حول الموقع</a></li>
                         <li class="login" data-toggle="modal" data-target="#exampleModal"><a href="#" data-dismiss="modal">تسجيل الدخول</a></li>
                         <li class="login"><a href="register.php">انشاء حساب</a></li>
-                        <li><a href="#price">حول الموقع</a></li>
-                        <li><a href="contact.php">اتصل بنا</a></li>
-                        <li><a href="#service">مساعدة</a></li>                        
-                        <li><a href="#">اضف اعلان</a></li>
-                        <li class="active"><a href="index.php">الرئيسية</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -156,7 +158,11 @@
                                 <div class="home-content">
 
                                     <h1 class="shadow-text">هل تبحت عن عقار منزل شقة نحن هنا لمساعدتك</h1>
-                                    <p>وصف تقديمي</p>
+                                    <p class="shadow-text"><b>
+                                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على 
+                                    الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
+                                        ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام
+                                        "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقرو</b></p>
 
                                     <!-- <div class="row">
                                         <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
@@ -175,14 +181,11 @@
                     </div>
                 </div>			
             </div>
-        </header>
+        </header> 
         <!-- Recherche -->
         <section>
             <div class="container">
                 <div class="row">
-                        <div class="col-md-3">
-                          <img src="images/ads.jpg" alt="ads" class="responsive ads" >
-                        </div>
                     <!-- form de recherche -->
                         <div class="col-md-9">
                             <div class="panel panel-default panel-form body-panel-style">
@@ -311,6 +314,9 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-3">
+                          <img src="images/ads.jpg" alt="ads" class="responsive ads" >
+                        </div>
                 </div>
             </div>        
         </section>    
@@ -318,74 +324,16 @@
         <section>
             <div class="container">
                 <div class="row">
-                   <div class="col-md-3">
-                        <img src="images/ads.jpg" alt="ads1" class="responsive">
-                    </div>
                     <div class="col-md-9">
                             <div class="tz-gallery">
                             <p class="page-description text-center">عقارات</p>
-                                   <div class="row">
-                                        <div class="col-sm-12 col-md-12">
-                                            <div class="col-md-8 caption">
-                                                <p class="h3 time-offer">اليوم 10:16</p>
-                                                <h3>شقة للبيع</h3>
-                                                <p>
-                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على 
-                                                الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
-                                                 ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام
-                                                  "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقرو
-                                                </p>
-
-                                                 <table class="table">
-                                                     <tr>
-                                                         <td><small class="fa fa-usd">  السعر 1200 درهم </small></td>
-                                                         <td><small class="	glyphicon glyphicon-map-marker">المدينة مراكش  </small></td>
-                                                         <td> <small class="glyphicon glyphicon-thumbs-up"> قابل للتفاوض </small></td>
-                                                         <td><a href="" class="">تفاصيل اكتر</a></td>
-                            
-                                                     </tr>
-                                                 </table>  
-                                            </div>
-                                            <div class="col-md-4">
-                                            <div class="thumbnail">
-                                                        <img src="images/bridge.jpg" alt="Bridge">
-                                                </div>                                               
-                                            </div>
-                                        </div>                                   
-                                    </div>  
-                                    <hr>
                                     <div class="row">
                                         <div class="col-sm-12 col-md-12">
-                                            <div class="col-md-8 caption">
-                                                <p class="h3 time-offer">اليوم 10:16</p>
-                                                <h3>شقة للبيع</h3>
-                                                <p>
-                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على 
-                                                الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
-                                                 ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام
-                                                  "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقرو
-                                                </p>
-
-                                                 <table class="table">
-                                                     <tr>
-                                                         <td><small class="fa fa-usd">  السعر 1200 درهم </small></td>
-                                                         <td><small class="	glyphicon glyphicon-map-marker">المدينة مراكش  </small></td>
-                                                         <td> <small class="glyphicon glyphicon-thumbs-up"> قابل للتفاوض </small></td>
-                                                         <td><a href="" class="">تفاصيل اكتر</a></td>
-                            
-                                                     </tr>
-                                                 </table>  
-                                            </div>
-                                            <div class="col-md-4">
+                                          <div class="col-md-4">
                                                 <div class="thumbnail">
                                                         <img src="images/bridge.jpg" alt="Bridge">
                                                 </div>                                              
                                             </div>
-                                        </div>                                   
-                                    </div>  
-                                    <hr>
-                                    <div class="row">
-                                        <div class="col-sm-12 col-md-12">
                                             <div class="col-md-8 caption">
                                                 <p class="h3 time-offer">اليوم 10:16</p>
                                                 <h3>شقة للبيع</h3>
@@ -406,16 +354,16 @@
                                                      </tr>
                                                  </table>  
                                             </div>
-                                            <div class="col-md-4">
-                                            <div class="thumbnail">
-                                                        <img src="images/bridge.jpg" alt="Bridge">
-                                                </div>                                               
-                                            </div>
                                         </div>                                   
-                                    </div>  
+                                    </div> 
                                     <hr>
                                     <div class="row">
                                         <div class="col-sm-12 col-md-12">
+                                          <div class="col-md-4">
+                                                <div class="thumbnail">
+                                                        <img src="images/bridge.jpg" alt="Bridge">
+                                                </div>                                              
+                                            </div>
                                             <div class="col-md-8 caption">
                                                 <p class="h3 time-offer">اليوم 10:16</p>
                                                 <h3>شقة للبيع</h3>
@@ -436,10 +384,65 @@
                                                      </tr>
                                                  </table>  
                                             </div>
-                                            <div class="col-md-4">
-                                            <div class="thumbnail">
+                                        </div>                                   
+                                    </div>  
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12">
+                                          <div class="col-md-4">
+                                                <div class="thumbnail">
                                                         <img src="images/bridge.jpg" alt="Bridge">
-                                                </div>                                               
+                                                </div>                                              
+                                            </div>
+                                            <div class="col-md-8 caption">
+                                                <p class="h3 time-offer">اليوم 10:16</p>
+                                                <h3>شقة للبيع</h3>
+                                                <p>
+                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على 
+                                                الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
+                                                 ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام
+                                                  "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقرو
+                                                </p>
+
+                                                 <table class="table">
+                                                     <tr>
+                                                         <td><small class="fa fa-usd">  السعر 1200 درهم </small></td>
+                                                         <td><small class="	glyphicon glyphicon-map-marker">المدينة مراكش  </small></td>
+                                                         <td> <small class="glyphicon glyphicon-thumbs-up"> قابل للتفاوض </small></td>
+                                                         <td><a href="" class="">تفاصيل اكتر</a></td>
+                            
+                                                     </tr>
+                                                 </table>  
+                                            </div>
+                                        </div>                                   
+                                    </div>  
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12">
+                                          <div class="col-md-4">
+                                                <div class="thumbnail">
+                                                        <img src="images/bridge.jpg" alt="Bridge">
+                                                </div>                                              
+                                            </div>
+                                            <div class="col-md-8 caption">
+                                                <p class="h3 time-offer">اليوم 10:16</p>
+                                                <h3>شقة للبيع</h3>
+                                                <p>
+                                                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على 
+                                                الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.
+                                                 ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام
+                                                  "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقرو
+                                                </p>
+
+                                                 <table class="table">
+                                                     <tr>
+                                                         <td><small class="fa fa-usd">  السعر 1200 درهم </small></td>
+                                                         <td><small class="	glyphicon glyphicon-map-marker">المدينة مراكش  </small></td>
+                                                         <td> <small class="glyphicon glyphicon-thumbs-up"> قابل للتفاوض </small></td>
+                                                         <td><a href="" class="">تفاصيل اكتر</a></td>
+                            
+                                                     </tr>
+                                                 </table>  
                                             </div>
                                         </div>                                   
                                     </div>  
@@ -457,6 +460,10 @@
                                     </div>
                             </div>
                     </div>  
+                    <br><br>
+                    <div class="col-md-3">
+                        <img src="images/ads.jpg" alt="ads1" class="responsive">
+                    </div>
                 </div>
             </div>
         </section>

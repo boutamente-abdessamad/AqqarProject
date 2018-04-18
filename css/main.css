@@ -245,7 +245,7 @@ ul li {
    }.ads{
     margin-top: 30px;
    }.shadow-text{
-        text-shadow: 4px -1px #000000;
+    text-shadow: 2px 0 0 #000, 1px 0 0 #171717, 0 0px 0 #000000, 0 0px 0 #146b34, -1px 1px #000000, 3px 1px 0 #555, 0px 0px 0 #333, 0px 0px 0 #82ca9c;
    }.derection{
         direction: rtl;
    }.show-offer-background{

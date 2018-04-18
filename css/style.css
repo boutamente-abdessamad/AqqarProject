@@ -567,13 +567,8 @@ textarea::-ms-input-placeholder
 .navbar-default .collapse .login a{
     color: #82ca9c;
     border: 1px solid #82ca9c;
-<<<<<<< HEAD
     border-radius: 4px;
     padding: 0px 15px;
-=======
-    border-radius: 20px;
-    padding: 0px 4px;
->>>>>>> 0010709ae56742e53f09fdb57768b395fef66b49
     font-size: 12px;
     margin-top: 10px;
     margin-left: 4px;
@@ -596,7 +591,8 @@ textarea::-ms-input-placeholder
 /*For Home Section*/
 .home{
     margin-top: -20px;
-    background:url(../images/homebg.jpg) no-repeat center center;
+    height: 473px;
+    background:url(../images/homebg-2.jpg) no-repeat center center;
     color:#000;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -605,7 +601,7 @@ textarea::-ms-input-placeholder
 	-ms-background-size:cover;
 }
 .home-wrapper{
-    padding:180px 0px;
+    padding: 103px 0px;
     overflow:hidden;
 }
 .home-content h1{
@@ -689,7 +685,7 @@ textarea::-ms-input-placeholder
 }
 
 /* Service2 Section */
-.service2{}
+/* .service2{} */
 .service_content{
     width: 90%;
     margin: 0 auto;
@@ -785,7 +781,7 @@ textarea::-ms-input-placeholder
     position: relative;
     z-index: 1;
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 90px;
     height: 35px;
     line-height: 40px;
