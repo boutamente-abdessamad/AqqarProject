@@ -10,10 +10,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- bootstrap -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- bootsrap Rtl -->
+        <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
         <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
         <!--For Plugins external css-->
-        <link rel="stylesheet" href="css/plugins.css" />
         <link rel="stylesheet" href="css/roboto-webfont.css" />
         <!--Theme custom css -->
         <link rel="stylesheet" href="css/style.css">
@@ -26,7 +28,7 @@
         <link rel="stylesheet" href="css/main.css">
         <!-- offers css -->
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css"> -->
         <link rel="stylesheet" href="css/gallery/thumbnail-gallery.css">
         <style type="text/css">
         .bs-example{
@@ -47,10 +49,10 @@
                     <div class="social-wrapper">
                         <div class="col-md-6">
                             <div class="social-icon">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-google-plus"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -80,13 +82,13 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.php"><i class="fas fa-home"></i>الرئيسية</a></li>
+                        <li><a href="register.php"><i class="fas fa-plus"></i>اضف اعلان</a></li>
+                        <li><a href="#service"><i class="fas fa-hands-helping"></i>مساعدة</a></li>                       
+                        <li><a href="contact.php"><i class="fas fa-envelope-square"></i>اتصل بنا</a></li>
+                        <!-- <li><a href="#price"><i class="fas fa-chevron-circle-down"></i>حول الموقع</a></li> -->
                         <li class="login" data-toggle="modal" data-target="#exampleModal"><a href="#" data-dismiss="modal">تسجيل الدخول</a></li>
                         <li class="login"><a href="register.php">انشاء حساب</a></li>
-                        <li><a href="#price">حول الموقع</a></li>
-                        <li><a href="contact.php">اتصل بنا</a></li>
-                        <li><a href="#service">مساعدة</a></li>                        
-                        <li><a href="#features">اضف اعلان</a></li>
-                        <li class="active"><a href="index.php">الرئيسية</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -101,48 +103,49 @@
 </button> -->
 
 <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel"> تسجيل الدخول</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-            <section id="login">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="form-wrap">
-                                <p style="text-align: center;">المرجو إدخال البريد الالكتروني او رقم الهاتف مع كلمةالدخول</p>
-                                    <form role="form" action="javascript:;" method="post" id="login-form" autocomplete="off">
-                                        <div class="form-group">
-                                            <label for="email" class="sr-only">البريد الالكتروني او رقم الهاتف</label>
-                                            <input type="email" name="email" id="email" class="form-control" placeholder="البريد الالكتروني او رقم الهاتف">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="key" class="sr-only">كلمةالدخول</label>
-                                            <input type="password" name="key" id="key" class="form-control" placeholder="كلمةالدخول">
-                                        </div>
-                                        <div class="checkbox">
-                                            <span class="character-checkbox" onclick="showPassword()"></span>
-                                            <span class="label">إضهار كلمة الدخوال</span>
-                                        </div>
-                                        <div class="modal-footer">
-                                        <input type="submit" id="btn-login"   data-dismiss="modal" class="btn btn-custom btn-lg btn-block" value="تسجيل الدخول">
-                                        </div>
-                                    </form>
-                                    <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal"> هل نسيت كلمة الدخول؟؟</a>
-                                    <hr>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"> تسجيل الدخول</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <section id="login">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-wrap">
+                        <p style="text-align: center;">المرجو إدخال البريد الالكتروني او رقم الهاتف مع كلمةالدخول</p>
+                            <form role="form" action="profile.php" method="post" id="login-form" autocomplete="off">
+                                <div class="form-group">
+                                    <label for="email" class="sr-only">البريد الالكتروني او رقم الهاتف</label>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="البريد الالكتروني او رقم الهاتف">
                                 </div>
-                            </div> <!-- /.col-xs-12 -->
-                        </div> <!-- /.row -->
-                </section>
-            </div>
-            </div>
-        </div>
-        </div>
+                                <div class="form-group">
+                                    <label for="key" class="sr-only">كلمةالدخول</label>
+                                    <input type="password" name="key" id="key" class="form-control" placeholder="كلمةالدخول">
+                                </div>
+                                <div class="checkbox">
+                                    <span class="character-checkbox" onclick="showPassword()"></span>
+                                    <span class="label">إضهار كلمة الدخوال</span>
+                                </div>
+                                <div class="modal-footer">
+                                <input type="submit" id="btn-login"    data-dismiss="modal" class="btn btn-custom btn-lg btn-block" value="تسجيل الدخول">
+                                </div>
+                            </form>
+                            <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal"> هل نسيت كلمة الدخول؟؟</a>
+                            <hr>
+                        </div>
+                    </div> <!-- /.col-xs-12 -->
+                </div> <!-- /.row -->
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
 
         <!-- Contact -->
         <section>
@@ -280,6 +283,7 @@
     
 }
         </script>
+        <script defer src="js/fontawesome-all.js"></script>
     </body>
 </html>
 

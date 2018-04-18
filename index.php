@@ -49,10 +49,10 @@
                     <div class="social-wrapper">
                         <div class="col-md-6">
                             <div class="social-icon">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-google-plus"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -82,11 +82,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.php">الرئيسية</a></li>
-                        <li><a href="#">اضف اعلان</a></li>
-                        <li><a href="#service">مساعدة</a></li>                       
-                        <li><a href="contact.php">اتصل بنا</a></li>
-                        <li><a href="#price">حول الموقع</a></li>
+                        <li class="active"><a href="index.php"><i class="fas fa-home"></i>الرئيسية</a></li>
+                        <li><a href="register.php"><i class="fas fa-plus"></i>اضف اعلان</a></li>
+                        <li><a href="#service"><i class="fas fa-hands-helping"></i>مساعدة</a></li>                       
+                        <li><a href="contact.php"><i class="fas fa-envelope-square"></i>اتصل بنا</a></li>
+                        <!-- <li><a href="#price"><i class="fas fa-chevron-circle-down"></i>حول الموقع</a></li> -->
                         <li class="login" data-toggle="modal" data-target="#exampleModal"><a href="#" data-dismiss="modal">تسجيل الدخول</a></li>
                         <li class="login"><a href="register.php">انشاء حساب</a></li>
                     </ul>
@@ -118,7 +118,7 @@
                     <div class="col-xs-12">
                         <div class="form-wrap">
                         <p style="text-align: center;">المرجو إدخال البريد الالكتروني او رقم الهاتف مع كلمةالدخول</p>
-                            <form role="form" action="javascript:;" method="post" id="login-form" autocomplete="off">
+                            <form role="form" action="profile.php" method="post" id="login-form" autocomplete="off">
                                 <div class="form-group">
                                     <label for="email" class="sr-only">البريد الالكتروني او رقم الهاتف</label>
                                     <input type="email" name="email" id="email" class="form-control" placeholder="البريد الالكتروني او رقم الهاتف">
@@ -132,7 +132,7 @@
                                     <span class="label">إضهار كلمة الدخوال</span>
                                 </div>
                                 <div class="modal-footer">
-                                <a href="profile.php"><input type="submit" id="btn-login"    data-dismiss="modal" class="btn btn-custom btn-lg btn-block" value="تسجيل الدخول"></a>
+                                <input type="submit" id="btn-login"    data-dismiss="modal" class="btn btn-custom btn-lg btn-block" value="تسجيل الدخول">
                                 </div>
                             </form>
                             <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal"> هل نسيت كلمة الدخول؟؟</a>
@@ -600,6 +600,7 @@
     
 }
         </script>
+        <script defer src="js/fontawesome-all.js"></script>
     </body>
 </html>
 
